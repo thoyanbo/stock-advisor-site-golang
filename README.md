@@ -33,9 +33,11 @@ Fundamentals come from one of two sources, selected by `DATA_PROVIDER`:
 
 ## Getting started
 
+Run both backend and frontend in separate terminals,
 ### Backend
 
 ```bash
+cd {YOUR_PROJECT_DIR}
 go run .
 ```
 
@@ -62,6 +64,8 @@ npm install
 npm run dev       # local dev server
 npm run build     # production build -> frontend/dist
 ```
+
+Then open http://localhost:5173 in your browser.
 
 ### Docker
 
